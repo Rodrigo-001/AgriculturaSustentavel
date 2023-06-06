@@ -177,3 +177,106 @@ nav, .secao-descricao, .titulo-e-subtitulo, .secao-titulos, .introducao{
     max-width: 62%;
     line-height: 32px;
 }
+
+/* SEÇÃO GALERIA */
+.container-galeria {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    gap: 20px;
+    padding: 18px;
+    background-color: #5E8330;
+    /* Cor de fundo desejada */
+}
+
+.imagem-container {
+    flex: 0 0 300px;
+    scroll-snap-align: start;
+    position: relative;
+}
+.imagem-container:before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: black;
+    z-index: 0;
+}
+
+
+.imagem {
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    opacity: 50%;
+}
+
+.imagem1 {
+    background-image: url(img/galeria1\ img1.jpg);
+    /*alterar imagem*/
+}
+
+.imagem2 {
+    background-image: url(img/galeria1\ img2.jpg);
+    /*alterar imagem*/
+}
+
+.imagem3 {
+    background-image: url(img/galeria1\ img3.jpg);
+    /*alterar imagem*/
+}
+
+.imagem4 {
+    background-image: url(img/galeria1\ img4.jpg);
+    /*alterar imagem*/
+}
+
+.imagem5 {
+    background-image: url(img/galeria1\ img5.jpg);
+    /*alterar imagem*/
+}
+
+/* fundo do subtitulo da galeria */
+.content {
+    position: absolute;
+    top: 40%;
+    left: 0;
+    right: 0;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    z-index: 1;
+    padding: 0px;
+    text-align: center;
+    width: 100%;
+}
+
+.container-galeria h2 {
+    margin-top: 0;
+    font-size: 16px;
+    position: relative;
+    z-index: 2;
+    background-color: rgba(255, 255, 255, 0.292);
+    padding: 0px 0px;
+    width: 100%;
+    height: 42px ;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.container-galeria p {
+    margin-top: 20px;
+    /* Define a distância entre h2 e p */
+    font-size: 13px;
+    text-align:center;
+    font-weight: bold;
+    width: 90%;
+    text-shadow: black 2px 2px 20px;
+}
+/* ESTILOS GALERIA FIM */
