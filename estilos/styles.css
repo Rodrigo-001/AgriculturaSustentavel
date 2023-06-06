@@ -16,7 +16,7 @@ body {
 /* ESTILOS AGRUPADOS */
 
 /*links do topo e links do nav */
-.secao-botoes a, nav a{
+.secao-botoes a, nav a, .secao-info{
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -38,6 +38,11 @@ nav h2, .introducao h4{
     margin-top: 50px;
     width: 100%;
 }
+/* seções de fundo verde */
+nav, .introducao, .secao-info, .secao-introducao-ia{
+    background: rgba(110, 153, 57, 0.8);
+}   
+
 /* CABEÇALHO  */
 header {
     background-image: url(img/fundo-cabeçalho1.jpg);
@@ -144,10 +149,6 @@ nav {
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3);
 }
 
-/* seções de fundo verde */
-nav, .introducao{
-    background: rgba(110, 153, 57, 0.8);
-}   
 
 nav a{    
     width: 428px;
@@ -164,7 +165,7 @@ nav a{
     background: #5E8330;   
 }
 
-nav, .secao-descricao, .titulo-e-subtitulo, .secao-titulos, .introducao{
+nav, .secao-descricao, .titulo-e-subtitulo, .secao-titulos, .introducao, .secao-introducao-ia{
     display: flex;
     flex-direction: column;
     align-items: center;     
@@ -172,7 +173,7 @@ nav, .secao-descricao, .titulo-e-subtitulo, .secao-titulos, .introducao{
 /* FIM MENU DE NAVEGAÇÃO */
 
 /* SEÇÃO INTRODUÇÃO - INICIO */
-.introducao p{
+.introducao p, .secao-introducao-ia p{
     margin-top: 50px;
     max-width: 62%;
     line-height: 32px;
@@ -191,7 +192,7 @@ nav, .secao-descricao, .titulo-e-subtitulo, .secao-titulos, .introducao{
 
 .imagem-container {
     flex: 0 0 300px;
-    scroll-snap-align: start;
+    scroll-snap-align: end;
     position: relative;
 }
 .imagem-container:before{
@@ -289,3 +290,22 @@ nav, .secao-descricao, .titulo-e-subtitulo, .secao-titulos, .introducao{
 }
 /* ESTILOS GALERIA FIM */
 
+/* SEÇÃO INFO - INICIO */
+.secao-info{
+    padding: 60px 0;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.672)}
+.secao-info img{
+    width: 192px;
+}
+.secao-info p{
+    width: 36%;
+    line-height: 30px;
+    text-shadow: black 1px 1px 10px;
+
+}
+/* FIM SEÇÃO INFO */
+
+/* SEÇÃO INTRODUÇÃO A IA */
+.secao-introducao-ia{
+    padding: 40px 0 60px 0;
+}
