@@ -136,7 +136,7 @@ h4{
 /* MENU DE NAVEGAÇÃO */
 
 nav {    
-    justify-content: center;
+    justify-content: center;    
     padding: 10px 442px;
     gap: 52px;
     /* verde */
@@ -216,29 +216,37 @@ nav, .secao-descricao, .titulo-e-subtitulo, .secao-titulos, .introducao{
 
 .imagem1 {
     background-image: url(img/galeria1\ img1.jpg);
-    /*alterar imagem*/
 }
 
 .imagem2 {
     background-image: url(img/galeria1\ img2.jpg);
-    /*alterar imagem*/
 }
 
 .imagem3 {
     background-image: url(img/galeria1\ img3.jpg);
-    /*alterar imagem*/
 }
 
 .imagem4 {
     background-image: url(img/galeria1\ img4.jpg);
-    /*alterar imagem*/
 }
 
 .imagem5 {
     background-image: url(img/galeria1\ img5.jpg);
-    /*alterar imagem*/
 }
 
+.imagem6{
+    background-image: url(img/galeria2\ imagem1.jpg);
+}
+
+.imagem7 {
+    background-image: url(img/galeria2\ imagem2.jpg);
+}
+.imagem8 {
+    background-image: url(img/galeria2\ imagem3.jpg);
+}
+.imagem9 {
+    background-image: url(img/galeria2\ imagem\ 4.png);
+}
 /* fundo do subtitulo da galeria */
 .content {
     position: absolute;
@@ -280,3 +288,4 @@ nav, .secao-descricao, .titulo-e-subtitulo, .secao-titulos, .introducao{
     text-shadow: black 2px 2px 20px;
 }
 /* ESTILOS GALERIA FIM */
+
