@@ -62,12 +62,17 @@ nav, .secao-descricao, .titulo-e-subtitulo, .secao-titulos, .introducao, .secao-
 
 /* CABEÇALHO  */
 header {
-    background-image: url(img/fundo-cabeçalho1.jpg);
     background-size: cover;
     background-position: center;
     height: 100vh;
     width: 100%;
     opacity: 80%;
+}
+#home {
+    background-image: url(img/fundo-cabeçalho1.jpg);
+}
+#agricultura {
+    background-image: url(img/fundo-cabecalho2.jpg);
 }
 .secao-cabecalho {
     background-color: black;
