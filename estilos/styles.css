@@ -42,6 +42,9 @@ ol li {
 .texto-marrom {
     color: #995A1F;
 }
+.texto-verde{
+    color: #7cc622
+}
 
 nav h2,
 .introducao h4,
@@ -125,6 +128,15 @@ header {
     background-image: url(img/fundo-cabecalho4.jpg);
 }
 
+#repositorio{
+    background-image: url(img/fundo-cabecalho5.jpg);
+}
+
+#contato{
+    background-image: url(img/fundo-cabecalho6.jpg);
+
+}
+
 
 
 .secao-cabecalho {
@@ -136,7 +148,7 @@ header {
 
 /*TOPO*/
 .secao-botoes a {
-    width: 55%;
+    /* width: 55%; */
     height: 48px;
     border-radius: 52px;
     margin: 0 10px;
@@ -239,13 +251,13 @@ nav a {
     height: 45px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
     border-radius: 31px;
-    align-self: stretch;
+    align-self:stretch;
     margin: 20px 0;
 }
 
 /* fundo marrom */
 .botao-marrom,
-.secao-vertentes {
+.secao-vertentes, .funcionamento-ia {
     background: rgba(153, 90, 31, 0.65);
 }
 
@@ -266,6 +278,7 @@ nav a {
     padding: 18px;
     background-color: #5E8330;
     /* Cor de fundo desejada */
+    justify-content: center;
 }
 
 .imagem-container {
@@ -292,7 +305,7 @@ nav a {
     background-position: center;
     opacity: 50%;
 }
-
+/* galeria1 */
 .imagem1 {
     background-image: url(img/galeria1\ img1.jpg);
 }
@@ -312,6 +325,7 @@ nav a {
 .imagem5 {
     background-image: url(img/galeria1\ img5.jpg);
 }
+/* galeria2 */
 
 .imagem6 {
     background-image: url(img/galeria2\ imagem1.jpg);
@@ -327,6 +341,41 @@ nav a {
 
 .imagem9 {
     background-image: url(img/galeria2\ imagem\ 4.png);
+}
+/* galeria3 */
+.imagem10{
+    background-image: url(img/galeria3\ imagem\ 1.png);    
+}
+.imagem11{
+    background-image: url(img/galeria3\ imagem2.jpg);
+}.imagem12{
+    background-image: url(img/galeria3\ imagem3.jpg);
+}.imagem13{
+    background-image: url(img/galeria3\ imagem4.jpg);
+}.imagem14{
+    background-image: url(img/galeria3\ imagem\ 5.png);
+}
+/* galeria 4 */
+.imagem15{
+    background-image: url(img/galeria4\ img1.jpg);
+}
+.imagem16{
+    background-image: url(img/galeria4\ img2.jpg);
+}
+.imagem17{
+    background-image: url(img/galeria4\ img3.jpg);
+}
+.imagem18{
+    background-image: url(img/galeria4\ img4.jpg);
+}
+.imagem19{
+    background-image: url(img/galeria5\ img1.png);
+}
+.imagem20{
+    background-image: url(img/galeria5\ img2.jpg);
+}
+.imagem21{
+    background-image: url(img/galeria5\ img3.jpg);
 }
 
 /* fundo do subtitulo da galeria */
@@ -411,7 +460,7 @@ ul {
 
 /* RODAPE FIM */
 
-ul, ol {
+ul {
     list-style-type: none;
 }
 
@@ -443,3 +492,12 @@ ul, ol {
     text-shadow: 0.5px 0.5px 10px rgba(0, 0, 0, 0.743)
 }
 
+/* seção vantagens - ias */
+.vantagens-ia h4{
+    margin-bottom: 48px;;
+}
+
+/* secao - ia conclusão */
+.ia-conclusao,.tecnicas{
+    padding: 58px 0;
+}
