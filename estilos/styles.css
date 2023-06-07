@@ -77,6 +77,11 @@ header {
 #ia-agricultura{
     background-image: url(img/fundo-cabecalho3.jpg);
 }
+
+#cultivo{
+    background-image: url(img/fundo-cabecalho4.jpg);
+}
+
 .secao-cabecalho {
     background-color: black;
     width: 100%;
