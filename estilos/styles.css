@@ -35,8 +35,9 @@ nav a,
 
 p,
 ul li,
-ol li {
+ol li, label {
     font-size: 18px;
+    font-weight: bold;
 }
 
 .texto-marrom {
@@ -61,8 +62,8 @@ nav,
 .secao-introducao-ia,
 footer,
 .obj1,
-.obj2 {
-    background: rgba(110, 153, 57, 0.8);
+.obj2, .formulario {
+    background: rgb(110 153 57);
 }
 
 nav,
@@ -93,7 +94,7 @@ nav,
 .secao-vertentes,
 .obj2, .secao-manejo {
     padding: 60px 0;
-    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.672)
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.264)
 }
 /* tamanho imagem*/
 .introducao img,
@@ -109,7 +110,7 @@ header {
     background-position: center;
     height: 100vh;
     width: 100%;
-    opacity: 80%;
+    opacity: 85%;
 }
 
 #home {
@@ -154,8 +155,8 @@ header {
     margin: 0 10px;
 }
 
-.menu {
-    background-color: rgb(198, 198, 198);
+.menu{
+    background-color: #929090;
 }
 
 .home {
@@ -258,8 +259,7 @@ nav a {
 /* fundo marrom */
 .botao-marrom,
 .secao-vertentes, .funcionamento-ia {
-    background: rgba(153, 90, 31, 0.65);
-}
+    background: rgba(131, 77, 27, 0.915)}
 
 .botao-verde {
     background: #5E8330;
@@ -278,7 +278,9 @@ nav a {
     padding: 18px;
     background-color: #5E8330;
     /* Cor de fundo desejada */
-    justify-content: center;
+    /* justify-content: center; */
+    justify-content: space-around;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.229);
 }
 
 .imagem-container {
@@ -437,6 +439,7 @@ nav a {
 /* SEÇÃO INTRODUÇÃO A IA */
 .secao-introducao-ia {
     padding: 40px 0 60px 0;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.317);
 }
 
 /* RODAPE INICIO */
@@ -500,4 +503,40 @@ ul {
 /* secao - ia conclusão */
 .ia-conclusao,.tecnicas{
     padding: 58px 0;
+}
+
+/* FORMULÁRIO INICIO */
+form {
+    max-width: 50%;
+    margin: 0 auto;
+    padding: 20px;         
+}
+
+label {
+    display: block;
+    margin: 22px auto 12px auto;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;            
+    background-color: #8eb95a;
+    /* cor dos campos */
+    border-radius: 8px;            
+}
+input[type="submit"] {
+    background-color: #995A1F;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    font-size: 18px;
+}
+
+/* subtitulo formulário */
+.formulario h4{
+    margin-top: 42px;
 }
