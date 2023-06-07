@@ -272,14 +272,13 @@ nav a {
 /* SEÇÃO GALERIA */
 .container-galeria {
     display: flex;
+    justify-content: space-between;
     overflow-x: auto;
     scroll-snap-type: x mandatory;
     gap: 20px;
-    padding: 18px;
+    padding: 18px;    
     background-color: #5E8330;
-    /* Cor de fundo desejada */
-    /* justify-content: center; */
-    justify-content: space-around;
+    /* Cor de fundo desejada */    
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.229);
 }
 
@@ -305,7 +304,7 @@ nav a {
     height: 200px;
     background-size: cover;
     background-position: center;
-    opacity: 50%;
+    opacity: 50%;    
 }
 /* galeria1 */
 .imagem1 {
@@ -540,3 +539,34 @@ input[type="submit"] {
 .formulario h4{
     margin-top: 42px;
 }
+
+/* Breakpoint para Celulares */
+@media only screen and (max-width: 522px) {
+    h1{
+        font-size: 22px;
+    }
+    h2{
+        font-size: 20px;
+    }
+    .subtitulo p{
+        font-size: 16px;
+
+    } 
+  }
+  
+  /* Breakpoint para Tablets */
+  @media only screen and (min-width: 481px) and (max-width: 706px) {
+    h1{
+        font-size: 28px;
+    }
+    h2{
+        font-size: 22px
+    }
+  }
+  
+  /* Breakpoint para Desktop */
+  @media only screen and (min-width: 769px) {
+    /* .container-galeria{
+        justify-content: space-between;
+    }     */
+  }
