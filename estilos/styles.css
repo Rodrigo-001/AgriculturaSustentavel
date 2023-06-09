@@ -35,7 +35,8 @@ nav a,
 
 p,
 ul li,
-ol li, label {
+ol li,
+label {
     font-size: 18px;
     font-weight: bold;
 }
@@ -43,16 +44,19 @@ ol li, label {
 .texto-marrom {
     color: #995A1F;
 }
-.texto-verde{
+
+.texto-verde {
     color: #7cc622
 }
 
 nav h2,
 .introducao h4,
-.objetivos h4 , .secao-controle h4, .secao-prevencao h4{
+.objetivos h4,
+.secao-controle h4,
+.secao-prevencao h4 {
     margin-top: 50px;
     width: 100%;
-    
+
 }
 
 /* seções de fundo verde */
@@ -62,7 +66,8 @@ nav,
 .secao-introducao-ia,
 footer,
 .obj1,
-.obj2, .formulario {
+.obj2,
+.formulario {
     background: rgb(110 153 57);
 }
 
@@ -74,7 +79,9 @@ nav,
 .secao-introducao-ia,
 .rodape,
 .secao-vertentes,
-.objetivos, .secao-controle, .secao-prevencao {
+.objetivos,
+.secao-controle,
+.secao-prevencao {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -82,7 +89,7 @@ nav,
 
 .introducao p,
 .secao-introducao-ia p,
-.objetivos p{
+.objetivos p {
     margin-top: 50px;
     margin-bottom: 20px;
     max-width: 62%;
@@ -92,10 +99,12 @@ nav,
 .secao-info,
 .rodape,
 .secao-vertentes,
-.obj2, .secao-manejo {
+.obj2,
+.secao-manejo {
     padding: 60px 0;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.264)
 }
+
 /* tamanho imagem*/
 .introducao img,
 .objetivos img {
@@ -129,11 +138,11 @@ header {
     background-image: url(img/fundo-cabecalho4.jpg);
 }
 
-#repositorio{
+#repositorio {
     background-image: url(img/fundo-cabecalho5.jpg);
 }
 
-#contato{
+#contato {
     background-image: url(img/fundo-cabecalho6.jpg);
 
 }
@@ -155,7 +164,7 @@ header {
     margin: 0 10px;
 }
 
-.menu{
+.menu {
     background-color: #929090;
 }
 
@@ -204,15 +213,7 @@ header {
 
 /* SEÇÃO TÍTULOS */
 
-h1 {
-    font-size: 32px;
-    margin-bottom: 72px;
-}
 
-h2 {
-    font-size: 28px;
-    width: 70%;
-}
 
 h4 {
     font-size: 22px;
@@ -252,14 +253,16 @@ nav a {
     height: 45px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
     border-radius: 31px;
-    align-self:stretch;
+    align-self: stretch;
     margin: 20px 0;
 }
 
 /* fundo marrom */
 .botao-marrom,
-.secao-vertentes, .funcionamento-ia {
-    background: rgba(131, 77, 27, 0.915)}
+.secao-vertentes,
+.funcionamento-ia {
+    background: rgba(131, 77, 27, 0.915)
+}
 
 .botao-verde {
     background: #5E8330;
@@ -276,9 +279,9 @@ nav a {
     overflow-x: auto;
     scroll-snap-type: x mandatory;
     gap: 20px;
-    padding: 18px;    
+    padding: 18px;
     background-color: #5E8330;
-    /* Cor de fundo desejada */    
+    /* Cor de fundo desejada */
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.229);
 }
 
@@ -304,8 +307,9 @@ nav a {
     height: 200px;
     background-size: cover;
     background-position: center;
-    opacity: 50%;    
+    opacity: 50%;
 }
+
 /* galeria1 */
 .imagem1 {
     background-image: url(img/galeria1\ img1.jpg);
@@ -326,6 +330,7 @@ nav a {
 .imagem5 {
     background-image: url(img/galeria1\ img5.jpg);
 }
+
 /* galeria2 */
 
 .imagem6 {
@@ -343,39 +348,54 @@ nav a {
 .imagem9 {
     background-image: url(img/galeria2\ imagem\ 4.png);
 }
+
 /* galeria3 */
-.imagem10{
-    background-image: url(img/galeria3\ imagem\ 1.png);    
+.imagem10 {
+    background-image: url(img/galeria3\ imagem\ 1.png);
 }
-.imagem11{
+
+.imagem11 {
     background-image: url(img/galeria3\ imagem2.jpg);
-}.imagem12{
+}
+
+.imagem12 {
     background-image: url(img/galeria3\ imagem3.jpg);
-}.imagem13{
+}
+
+.imagem13 {
     background-image: url(img/galeria3\ imagem4.jpg);
-}.imagem14{
+}
+
+.imagem14 {
     background-image: url(img/galeria3\ imagem\ 5.png);
 }
+
 /* galeria 4 */
-.imagem15{
+.imagem15 {
     background-image: url(img/galeria4\ img1.jpg);
 }
-.imagem16{
+
+.imagem16 {
     background-image: url(img/galeria4\ img2.jpg);
 }
-.imagem17{
+
+.imagem17 {
     background-image: url(img/galeria4\ img3.jpg);
 }
-.imagem18{
+
+.imagem18 {
     background-image: url(img/galeria4\ img4.jpg);
 }
-.imagem19{
+
+.imagem19 {
     background-image: url(img/galeria5\ img1.png);
 }
-.imagem20{
+
+.imagem20 {
     background-image: url(img/galeria5\ img2.jpg);
 }
-.imagem21{
+
+.imagem21 {
     background-image: url(img/galeria5\ img3.jpg);
 }
 
@@ -444,7 +464,7 @@ nav a {
 /* RODAPE INICIO */
 li {
     margin-top: 18px;
-    text-align:center;
+    text-align: center;
     width: 100%;
 
 }
@@ -453,7 +473,7 @@ ul,
 ol {
     margin-bottom: 22px;
     text-align: center;
-    width: 52%;
+    width: 82%;
 }
 
 ul {
@@ -472,35 +492,45 @@ ul {
     padding: 0px;
 }
 
-.obj3, .secao-controle, .secao-prevencao {
+.obj3,
+.secao-controle,
+.secao-prevencao {
     position: relative;
     padding: 102px 0 22px 0;
     background-size: cover;
     background-position: center;
     background-blend-mode: multiply;
-  }
-.obj3{
+}
+
+.obj3 {
     background-image: linear-gradient(rgba(0, 0, 0, 0.307), rgba(0, 0, 0, 0.528)), url(img/img-secao-objetivos3.jpg);
 
 }
-.secao-controle{
+
+.secao-controle {
     background-image: linear-gradient(rgba(0, 0, 0, 0.307), rgba(0, 0, 0, 0.528)), url(img/img-secao-controle.jpg);
 
 }
-.secao-prevencao{
+
+.secao-prevencao {
     background-image: linear-gradient(rgba(0, 0, 0, 0.307), rgba(0, 0, 0, 0.528)), url(img/img-secao-prevencao.jpg);
 }
-.objetivos, .secao-controle, .secao-prevencao{
+
+.objetivos,
+.secao-controle,
+.secao-prevencao {
     text-shadow: 0.5px 0.5px 10px rgba(0, 0, 0, 0.743)
 }
 
 /* seção vantagens - ias */
-.vantagens-ia h4{
-    margin-bottom: 48px;;
+.vantagens-ia h4 {
+    margin-bottom: 48px;
+    ;
 }
 
 /* secao - ia conclusão */
-.ia-conclusao,.tecnicas{
+.ia-conclusao,
+.tecnicas {
     padding: 58px 0;
 }
 
@@ -508,7 +538,7 @@ ul {
 form {
     max-width: 50%;
     margin: 0 auto;
-    padding: 20px;         
+    padding: 20px;
 }
 
 label {
@@ -520,11 +550,12 @@ input[type="text"],
 input[type="email"],
 textarea {
     width: 100%;
-    padding: 10px;            
+    padding: 10px;
     background-color: #8eb95a;
     /* cor dos campos */
-    border-radius: 8px;            
+    border-radius: 8px;
 }
+
 input[type="submit"] {
     background-color: #995A1F;
     color: white;
@@ -536,37 +567,88 @@ input[type="submit"] {
 }
 
 /* subtitulo formulário */
-.formulario h4{
+.formulario h4 {
     margin-top: 42px;
 }
 
+/* Breakpoint para Celulares de até 400px*/
+@media only screen and (max-width: 400px) {
+    .topo-ia img {
+        display: none;
+    }
+
+    .topo-ia {
+        justify-content: end;
+    }
+}
+
+
 /* Breakpoint para Celulares */
 @media only screen and (max-width: 522px) {
-    h1{
+    h1 {
         font-size: 22px;
     }
-    h2{
+
+    h2 {
         font-size: 20px;
     }
-    .subtitulo p{
+
+    h4 {
+        font-size: 18px;
+    }
+
+    p,
+    ul li,
+    ol li,
+    label {
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    .subtitulo p {
         font-size: 16px;
 
-    } 
-  }
-  
-  /* Breakpoint para Tablets */
-  @media only screen and (min-width: 481px) and (max-width: 706px) {
-    h1{
+    }
+
+    .logotipo img {
+        width: 66px;
+    }
+
+    .secao-topo a p {
+        font-size: 14px;
+        font-weight: bold;
+    }
+
+    .secao-botoes a {
+        padding: 6px;
+    }
+    .secao-info p {
+        width: 42%;
+        line-height: 30px;
+        text-shadow: black 1px 1px 10px;
+}
+
+/* Breakpoint para Tablets */
+@media only screen and (min-width: 481px) and (max-width: 706px) {
+    h1 {
         font-size: 28px;
     }
-    h2{
+
+    h2 {
         font-size: 22px
     }
-  }
-  
-  /* Breakpoint para Desktop */
-  @media only screen and (min-width: 769px) {
-    /* .container-galeria{
-        justify-content: space-between;
-    }     */
-  }
+}
+
+/* Breakpoint para Desktop */
+@media only screen and (min-width: 769px) {
+    h1 {
+        font-size: 32px;
+        margin-bottom: 72px;
+    }
+
+    h2 {
+        font-size: 28px;
+        width: 70%;
+    }
+}
+}
