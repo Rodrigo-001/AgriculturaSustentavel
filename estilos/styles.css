@@ -105,11 +105,7 @@ nav,
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.264)
 }
 
-/* tamanho imagem*/
-.introducao img,
-.objetivos img {
-    width: 16%;
-}
+
 
 /* FIM DOS ESTILOS AGRUPADOS */
 
@@ -456,6 +452,13 @@ nav a {
 /* FIM SEÇÃO INFO */
 
 /* SEÇÃO INTRODUÇÃO A IA */
+/* tamanho imagem*/
+
+.objetivos img {
+    width: 138px;
+}
+
+
 .secao-introducao-ia {
     padding: 40px 0 60px 0;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.317);
@@ -488,7 +491,7 @@ ul {
 
 
 .obj2 img {
-    width: 28%;
+    width: 182px;
     padding: 0px;
 }
 
@@ -580,6 +583,13 @@ input[type="submit"] {
     .topo-ia {
         justify-content: end;
     }
+
+    .obj1 img{
+        width: 138px;
+    }
+    .introducao img{
+        width: 50px;
+    }
 }
 
 
@@ -622,33 +632,52 @@ input[type="submit"] {
     .secao-botoes a {
         padding: 6px;
     }
+
     .secao-info p {
         width: 42%;
         line-height: 30px;
         text-shadow: black 1px 1px 10px;
-}
 
-/* Breakpoint para Tablets */
-@media only screen and (min-width: 481px) and (max-width: 706px) {
-    h1 {
-        font-size: 28px;
+        .objetivos img {
+            width: 138px;
+        }
+        
+        .objetivos img {
+            width: 138px;
+        }
     }
 
-    h2 {
-        font-size: 22px
+    /* Breakpoint para Tablets */
+    @media only screen and (min-width: 481px) and (max-width: 706px) {
+        h1 {
+            font-size: 28px;
+        }
+
+        h2 {
+            font-size: 22px
+        }
+    
+        .objetivos img {
+            width: 138px;
+        }
+    }
+
+    /* Breakpoint para Desktop */
+    @media only screen and (min-width: 769px) {
+        h1 {
+            font-size: 32px;
+            margin-bottom: 72px;
+        }
+
+        h2 {
+            font-size: 28px;
+            width: 70%;
+        }
+        
     }
 }
 
-/* Breakpoint para Desktop */
-@media only screen and (min-width: 769px) {
-    h1 {
-        font-size: 32px;
-        margin-bottom: 72px;
-    }
-
-    h2 {
-        font-size: 28px;
-        width: 70%;
-    }
-}
-}
+/* .obj2 img {
+    width: 182px;
+    padding: 0px;
+} */
