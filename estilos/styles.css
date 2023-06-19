@@ -119,27 +119,27 @@ header {
 }
 
 #home {
-    background-image: url(img/fundo-cabeçalho1.jpg);
+    background-image: url(../img/fundo-cabeçalho1.jpg);
 }
 
 #agricultura {
-    background-image: url(img/fundo-cabecalho2.jpg);
+    background-image: url(../img/fundo-cabecalho2.jpg);
 }
 
 #ia-agricultura {
-    background-image: url(img/fundo-cabecalho3.jpg);
+    background-image: url(../img/fundo-cabecalho3.jpg);
 }
 
 #cultivo {
-    background-image: url(img/fundo-cabecalho4.jpg);
+    background-image: url(../img/fundo-cabecalho4.jpg);
 }
 
 #repositorio {
-    background-image: url(img/fundo-cabecalho5.jpg);
+    background-image: url(../img/fundo-cabecalho5.jpg);
 }
 
 #contato {
-    background-image: url(img/fundo-cabecalho6.jpg);
+    background-image: url(../img/fundo-cabecalho6.jpg);
 
 }
 
@@ -308,91 +308,91 @@ nav a {
 
 /* galeria1 */
 .imagem1 {
-    background-image: url(img/galeria1\ img1.jpg);
+    background-image: url(../img/galeria1\ img1.jpg);
 }
 
 .imagem2 {
-    background-image: url(img/galeria1\ img2.jpg);
+    background-image: url(../img/galeria1\ img2.jpg);
 }
 
 .imagem3 {
-    background-image: url(img/galeria1\ img3.jpg);
+    background-image: url(../img/galeria1\ img3.jpg);
 }
 
 .imagem4 {
-    background-image: url(img/galeria1\ img4.jpg);
+    background-image: url(../img/galeria1\ img4.jpg);
 }
 
 .imagem5 {
-    background-image: url(img/galeria1\ img5.jpg);
+    background-image: url(../img/galeria1\ img5.jpg);
 }
 
 /* galeria2 */
 
 .imagem6 {
-    background-image: url(img/galeria2\ imagem1.jpg);
+    background-image: url(../img/galeria2\ imagem1.jpg);
 }
 
 .imagem7 {
-    background-image: url(img/galeria2\ imagem2.jpg);
+    background-image: url(../img/galeria2\ imagem2.jpg);
 }
 
 .imagem8 {
-    background-image: url(img/galeria2\ imagem3.jpg);
+    background-image: url(../img/galeria2\ imagem3.jpg);
 }
 
 .imagem9 {
-    background-image: url(img/galeria2\ imagem\ 4.png);
+    background-image: url(../img/galeria2\ imagem\ 4.png);
 }
 
 /* galeria3 */
 .imagem10 {
-    background-image: url(img/galeria3\ imagem\ 1.png);
+    background-image: url(../img/galeria3\ imagem\ 1.png);
 }
 
 .imagem11 {
-    background-image: url(img/galeria3\ imagem2.jpg);
+    background-image: url(../img/galeria3\ imagem2.jpg);
 }
 
 .imagem12 {
-    background-image: url(img/galeria3\ imagem3.jpg);
+    background-image: url(../img/galeria3\ imagem3.jpg);
 }
 
 .imagem13 {
-    background-image: url(img/galeria3\ imagem4.jpg);
+    background-image: url(../img/galeria3\ imagem4.jpg);
 }
 
 .imagem14 {
-    background-image: url(img/galeria3\ imagem\ 5.png);
+    background-image: url(../img/galeria3\ imagem\ 5.png);
 }
 
 /* galeria 4 */
 .imagem15 {
-    background-image: url(img/galeria4\ img1.jpg);
+    background-image: url(../img/galeria4\ img1.jpg);
 }
 
 .imagem16 {
-    background-image: url(img/galeria4\ img2.jpg);
+    background-image: url(../img/galeria4\ img2.jpg);
 }
 
 .imagem17 {
-    background-image: url(img/galeria4\ img3.jpg);
+    background-image: url(../img/galeria4\ img3.jpg);
 }
 
 .imagem18 {
-    background-image: url(img/galeria4\ img4.jpg);
+    background-image: url(../img/galeria4\ img4.jpg);
 }
 
 .imagem19 {
-    background-image: url(img/galeria5\ img1.png);
+    background-image: url(../img/galeria5\ img1.png);
 }
 
 .imagem20 {
-    background-image: url(img/galeria5\ img2.jpg);
+    background-image: url(../img/galeria5\ img2.jpg);
 }
 
 .imagem21 {
-    background-image: url(img/galeria5\ img3.jpg);
+    background-image: url(../img/galeria5\ img3.jpg);
 }
 
 /* fundo do subtitulo da galeria */
@@ -506,17 +506,17 @@ ul {
 }
 
 .obj3 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.307), rgba(0, 0, 0, 0.528)), url(img/img-secao-objetivos3.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.307), rgba(0, 0, 0, 0.528)), url(../img/img-secao-objetivos3.jpg);
 
 }
 
 .secao-controle {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.307), rgba(0, 0, 0, 0.528)), url(img/img-secao-controle.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.307), rgba(0, 0, 0, 0.528)), url(../img/img-secao-controle.jpg);
 
 }
 
 .secao-prevencao {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.307), rgba(0, 0, 0, 0.528)), url(img/img-secao-prevencao.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.307), rgba(0, 0, 0, 0.528)), url(../img/img-secao-prevencao.jpg);
 }
 
 .objetivos,
